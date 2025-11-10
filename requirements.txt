@@ -1,0 +1,13 @@
+pyarrow
+pyspark==3.4.4
+jupyterlab
+jupyterlab-rise
+requests
+certifi
+confluent-kafka[avro,json,protobuf]>=1.4.2
+faust-streaming
+faust-streaming-rocksdb
+psycopg2-binary
+faust-streaming==0.11.3
+faust-streaming-rocksdb
+river>=0.21.1

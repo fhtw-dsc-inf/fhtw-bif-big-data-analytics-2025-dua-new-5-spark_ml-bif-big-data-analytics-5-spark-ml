@@ -1,0 +1,21 @@
+import faust
+
+class MusicEvent(faust.Record):
+    ts: int
+    auth: str
+    page: str
+    song: str
+    level: str
+    artist: str
+    gender: str
+    method: str
+    status: int
+    userId: str
+    lastName: str
+    location: str
+    track_id: int
+    firstName: str
+    sessionId: int
+    userAgent: str
+    registration: int
+    itemInSession: int
